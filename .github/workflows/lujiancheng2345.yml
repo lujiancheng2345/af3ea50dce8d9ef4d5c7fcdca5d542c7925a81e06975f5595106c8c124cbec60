@@ -1,28 +1,38 @@
 name: lujiancheng2345
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 3/6 * * *'
-
+    - cron: '43 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lujiancheng2345
         env:
-          qz2648: ${{ secrets.qz2648 }}
+          j1782: ${{ secrets.j1782 }}
         run: |
-          echo $qz2648 | jq -r .ysz4 | /bin/bash
-          echo $tsd6498 | jq -r .hdhe80998 | /bin/bash
-          echo $x1883 | jq -r .egvk27784 | /bin/bash
-          echo $gp9134 | jq -r .lmpj63510 | /bin/bash
-          echo $nl13 | jq -r .cb779 | /bin/bash
-          echo $x0 | jq -r .f118 | /bin/bash
-          echo $nstg11979 | jq -r .lmly4 | /bin/bash
-          echo $zn33 | jq -r .b87144 | /bin/bash
-          echo $b36 | jq -r .sicx436 | /bin/bash
-          echo $vjudd2 | jq -r .evl236 | /bin/bash
-          echo $bkj853 | jq -r .l10502 | /bin/bash
+          echo $j1782 | jq -r .ct29 | /bin/bash
+          echo $cgbr1122 | jq -r .v55 | /bin/bash
+          echo $dv7042 | jq -r .cxqf2040 | /bin/bash
+          echo $ne256 | jq -r .cilii87 | /bin/bash
+          echo $e965 | jq -r .f381 | /bin/bash
+          echo $ima1 | jq -r .m6 | /bin/bash
+          echo $y60395 | jq -r .swmiu2 | /bin/bash
+          echo $ctbi08 | jq -r .g4 | /bin/bash
+          echo $c91 | jq -r .mcxl949 | /bin/bash
+          echo $t71 | jq -r .kny61293 | /bin/bash
+          echo $oyp61277 | jq -r .oh202 | /bin/bash
+          echo $a22 | jq -r .ylp687 | /bin/bash
+          echo $eqo6 | jq -r .guv6 | /bin/bash
+          echo $wkr9111 | jq -r .kywcy4 | /bin/bash
+          echo $sn86597 | jq -r .inf363 | /bin/bash
+          echo $bzu60566 | jq -r .b09385 | /bin/bash
+          echo $unkv986 | jq -r .g31226 | /bin/bash
+          echo $m5 | jq -r .nv17 | /bin/bash
+          echo $sjopw89 | jq -r .el3741 | /bin/bash
+          echo $oazt52075 | jq -r .xjtx8433 | /bin/bash
+          echo $syvm2825 | jq -r .oipk275 | /bin/bash
+          echo $bbl65045 | jq -r .yw0172 | /bin/bash
 
